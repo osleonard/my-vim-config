@@ -41,6 +41,9 @@ set cmdheight=2
 vmap <C-c> "+yi
 vmap <C-x> "+c
 
+" Splits
+nnoremap <Leader>v <C-w>v<C-w>l   " open a vertical split and switch to it (\v)
+nnoremap <Leader>h <C-w>s<C-w>j   " open a horizontal split and switch to it (\ h)
 
 " Backup paths
 set backupdir=/tmp//
