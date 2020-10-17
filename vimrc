@@ -165,6 +165,8 @@ autocmd FileType go runtime golang_mappings.vim
 
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 autocmd FileType java setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType conf setlocal tabstop=2 shiftwidth=2 softtabstop=2
+
 
 augroup Jenkinsfile
   au!
