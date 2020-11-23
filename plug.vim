@@ -3,7 +3,8 @@
 " --------------------------------------
 call plug#begin('~/.vim/plugged')
 " --- Init
-Plug 'dracula/vim'
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+"Plug 'dracula/vim'
 Plug 'morhetz/gruvbox'
 Plug 'ryanoasis/vim-devicons'
 Plug 'powerline/powerline'

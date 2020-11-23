@@ -63,12 +63,14 @@ set guifont=Fira\ Code\ 14
 " --------------------------
 set t_Co=256
 set background=dark
-colorscheme gruvbox
+colorscheme material
 highlight Normal ctermbg=none
 set showmatch
 let g:powerline_pycmd="py"
 let g:pymode_python = 'python'
 set termguicolors
+let g:material_terminal_italics = 1
+let g:material_theme_style = 'lighter'
 
 " --------------------------
 " ----- Airline Setting ----
@@ -85,6 +87,7 @@ let g:airline#extensions#tabline#tab_nr_type = 1 " show tab number not number of
 let g:airline#extensions#tabline#show_close_button = 0
 let g:airline#extensions#tabline#show_buffers = 0
 let g:airline_powerline_fonts = 1
+let g:airline_theme = 'material'
 
 function! StatusDiagnostic() abort
   let info = get(b:, 'coc_diagnostic_info', {})
